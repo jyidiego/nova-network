@@ -212,7 +212,7 @@ when "ubuntu"
 
     "neutron_ovs_packages" => [
       "linux-headers-#{kernel['release']}",
-      "openvswitch-datapath-lts-raring-dkms",
+      "openvswitch-switch",
       "neutron-plugin-openvswitch",
       "neutron-plugin-openvswitch-agent"
     ],
